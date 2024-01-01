@@ -467,13 +467,13 @@ button {
     color: var(--title-color);
 } */
 
-.active-link {
+/* .active-link {
     background: linear-gradient(101deg,
             hsl(228, 66%, 53%),
             hsl(228, 66%, 47%));
     color: #fff;
     box-shadow: 0 4px 8px hsla(228, 66%, 45%, .25);
-}
+} */
 
 .home {
     background: #3f37c9;
@@ -1805,7 +1805,7 @@ h4 {
 
 
 
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -1847,7 +1847,7 @@ h4 {
 
 
 
-}
+} */
 
 @media screen and (min-width: 576px) {
     .nav--menu {
@@ -1959,6 +1959,7 @@ h4 {
     .home--container {
         padding-top: 5rem;
         column-gap: 2rem;
+
     }
 
     .home--data {
@@ -2129,6 +2130,8 @@ h4 {
         color: var(--first-color);
         font-weight: var(--font-medium);
     }
+
+
 
 }
 
